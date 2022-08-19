@@ -1,6 +1,7 @@
 Chris Morrison: chrisgm@seas.upenn.edu
 
 The code is organized into 2 different sections. The code is to be run within a container in VS Code similar to how labs 3 and 8 were. 
+
 The first section is for the dynamic analysis (fuzzer).
 
 The fuzzer consists of Fuzzer.cpp, Instrument.cpp, and Utils.cpp
@@ -38,6 +39,7 @@ as well as the mutated input itself. It will also indicate how many of the test 
 The failure and success directories underneath fuzz_output_lab3_testA will show the inputs which cause crashes and successful runs, respectively.
 
 The 2nd part of the code is for the static analysis (LLVM Analysis Pass)
+
 The static analysis consists of Constraint.cpp, Extractor.cpp, Utils.cpp, and analysis.dl files in the src folder.
 The headers are in the include folder and the make files are in the build folder.
 This is designed around the same architecture as lab 8.
