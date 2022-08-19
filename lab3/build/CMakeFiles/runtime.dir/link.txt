@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -fdata-sections  -Wl,-z,nodelete -shared  -o libruntime.so CMakeFiles/runtime.dir/lib/runtime.c.o  -L/lab3/build 

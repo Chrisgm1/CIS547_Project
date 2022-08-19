@@ -1,0 +1,1 @@
+/usr/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -ffunction-sections -fdata-sections   CMakeFiles/fuzzer.dir/src/Fuzzer.cpp.o CMakeFiles/fuzzer.dir/src/Utils.cpp.o  -o fuzzer  -L/lab3/build 
